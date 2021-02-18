@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family = Lobster & family = Special + Elite & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Special+Elite&display=swap');
 
 *{
     margin: 0;
@@ -10,20 +10,74 @@ body {
     font-size: 15px;
     font-weight: 400;
     color: black;
-    background-image: linear-gradient(to right, #ff00cc, #333399);
 }
 
 h1 {
     font-family: 'Lobster', cursive;
-    font-size: 50px;
-    text-align: center;
-}
-
-p {
-    font-size: 30px;
+    font-size: 70px;
     text-align: center;
 }
 
 .hero {
-    margin-top: 30px;
+    padding: 175px;
+    background-image: linear-gradient( #ff00cc, #333399);
 }
+
+.hero p {
+    font-size: 40px;
+    text-align: center;
+}
+
+.button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    margin: 150px;
+    margin-left: 460px;
+    font-size: 30px;
+}
+
+.button-arrow {
+    background-color: transparent;
+    color: #ff00cc;
+}
+
+a:hover, a:active {
+    font-size: 150%;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.about-me p {
+    font-size: 16px;
+    float: right;
+    text-align: justify;
+    margin: 30px;
+}
+
+img {
+    width: 150px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    margin-left: 30px;
+    float: left;
+}
+
+.icon a {
+    font-size: 35px;
+    background-color: #9e1cb4;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    outline: none;
+}
+
+.icon {
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
