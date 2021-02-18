@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Lobster & family = Special + Elite & display = swap');
 
 *{
     margin: 0;
@@ -6,65 +6,24 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Special Elite' sans-serif;
     font-size: 15px;
     font-weight: 400;
     color: black;
+    background-image: linear-gradient(to right, #ff00cc, #333399);
 }
 
-.header {
-    background-image: url(imagens/capa.amarelo.png);
-    background-size: cover;
-    background-position: 50% 50%;
-    padding: 60px 30px 80px 30px;
-    margin-bottom: 20px;
-}
-
-.header li {
-    margin-left: 200px;
-    font-size: 16px;
-    
-}
-
-a:link {
-    text-decoration: none;
-}
-
-.title {
-    font-family: 'Poppins';
-    text-align: left;
-    font-size: 30px;
-    text-transform: uppercase;
-    max-width: 50%;
-    margin-left: 10%;
-    padding: 50px;
-}
-
-#sobre {
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
     text-align: center;
-    font-size: 40px;
-    text-decoration-line: underline overline;
-    text-decoration-color: #2a9d8f;
-    margin-bottom: 15px;
 }
 
-img {
-    width: 200px;
-    border-radius: 50%;
+p {
+    font-size: 30px;
+    text-align: center;
 }
 
-.imagem {
-    float: left;
-    margin-left: 190px;
-}
-
-.paragrafo {
-    float: right;
-    max-width: 800px;
-    text-align: justify;
-    padding: 20px 30px;
-}
-
-.habilidades {
-    clear: both;
+.hero {
+    margin-top: 30px;
 }
