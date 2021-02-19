@@ -58,7 +58,7 @@ h3 {
     margin-bottom: 30px;
 }
 
-.hero {
+.hero, .header{
     padding: 5%;
     background-image: linear-gradient( #ff00cc, #333399);
 }
@@ -163,3 +163,5 @@ img {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
+/*CSS página portfolio abaixo*/
