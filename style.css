@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 *{
     margin: 0;
@@ -98,14 +99,16 @@ img {
     width: 150px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
-    /* margin-left: 100px; 
-    float: left; */
-}
+} 
 
 .icon a {
     font-size: 40px;
     padding: 15px;
     color: black;
+}
+
+.icon a:hover {
+    font-size: 400%;
 }
 
 .icon {
@@ -165,3 +168,28 @@ img {
 }
 
 /*CSS página portfolio abaixo*/
+
+.aviso {
+    background-color: black;
+}
+
+.emoji {
+    font-size: 200px;
+    text-align: center;
+}
+
+.page{
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.mensagem {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
