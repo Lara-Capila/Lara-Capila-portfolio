@@ -2,194 +2,194 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .navbar {
-    overflow: hidden;
-    background-color: #ff00cc;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    font-size: 20px;
-    padding-top: 10px;
+  overflow: hidden;
+  background-color: #ff00cc;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 20px;
+  padding-top: 10px;
 }
 
 .navbar a {
-    float: right;
-    display: block;
-    color: #333399;
-    padding: 10px 25px;
-    text-decoration: none;
+  float: right;
+  display: block;
+  color: #333399;
+  padding: 10px 25px;
+  text-decoration: none;
 }
 
 .navbar a:hover {
-    background: #ff00cc;
-    color: #333399;
-    font-size: 130%;
+  background: #ff00cc;
+  color: #333399;
+  font-size: 130%;
 }
 
 .icon-code {
-    font-size: 50px;
-    margin-top: 15px;
+  font-size: 50px;
+  margin-top: 15px;
 }
 
 body {
-    font-family: 'Special Elite' sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    color: black;
-    background-color: #e3ddd7;
+  font-family: 'Special Elite' sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+  background-color: #e3ddd7;
 }
 
 h1 {
-    font-family: 'Lobster', cursive;
-    font-size: 70px;
-    text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 70px;
+  text-align: center;
 }
 
 h3 {
-    font-size: 25px;
-    margin-left: 30px;
-    margin-bottom: 30px;
+  font-size: 25px;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 
 .hero, .header{
-    padding: 5%;
-    background-image: linear-gradient( #ff00cc, #333399);
+  background-image: linear-gradient( #ff00cc, #333399);
+  min-height: 100vh;
 }
 
 .hero p {
-    font-size: 40px;
-    text-align: center;
+  font-size: 40px;
+  text-align: center;
 }
 
 .button {
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
-    padding: 50px;
-    font-size: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding: 50px;
+  font-size: 30px;
 }
 
 .button-arrow {
-    background-color: transparent;
-    color: #ff00cc;
+  background-color: transparent;
+  color: #ff00cc;
 }
 
 a:hover, a:active {
-    font-size: 150%;
+  font-size: 150%;
 }
 
 .about-me p {
-    font-size: 16px;
-    text-align: justify;
+  font-size: 16px;
+  text-align: justify;
 }
 
 .trybe-color {
-    color: green;
+  color: green;
 }
 
 img {
-    width: 150px;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
+  width: 150px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
 } 
 
 .icon a {
-    font-size: 40px;
-    padding: 15px;
-    color: black;
+  font-size: 40px;
+  padding: 15px;
+  color: black;
 }
 
 .icon a:hover {
-    font-size: 400%;
+  font-size: 400%;
 }
 
 .icon {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .about-trybe {
-    clear: both;
-    margin: 30px;
+  clear: both;
+  margin: 30px;
 }
 
 .about-trybe p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .conteiner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .technical-skill {
-    display: flex;
-    justify-content: center;
-    /* flex-direction: column; */
-    align-content: space-between;
-    font-size: 20px;
-    flex-wrap: wrap;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-content: space-between;
+  font-size: 20px;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .icon-skills {
-    width: 20%;
-    padding-bottom: 5px;
+  width: 20%;
+  padding-bottom: 5px;
 }
 
 .final-paragraph {
-    margin-left: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .container-about-me {
-    display: flex;
+  display: flex;
 }
 
 .padding-15 {
-    padding: 20px;
+  padding: 20px;
 }
 
 .title {
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /*CSS página portfolio abaixo*/
 
 .aviso {
-    background-color: black;
+  background-color: black;
 }
 
 .emoji {
-    font-size: 200px;
-    text-align: center;
+  font-size: 200px;
+  text-align: center;
 }
 
 .page{
-    font-size: 60px;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 30px;
-    font-family: 'Permanent Marker', cursive;
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .mensagem {
-    font-size: 30px;
-    color: white;
-    text-align: center;
-    padding: 30px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 30px;
 }
