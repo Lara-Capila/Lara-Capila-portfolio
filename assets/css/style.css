@@ -56,18 +56,18 @@ body {
   color: #8257e6;
 }
 
-.icon-code{
+.icon-code {
   font-size: 40px;
 }
 
 .hero h1 {
-  font-size: 60px;
+  font-size: 70px;
   font-family: 'Lobster', cursive;
   margin-bottom: 0px;
 }
 
 .paragraph-hero {
-  font-size: 30px;
+  font-size: 35px;
   margin-bottom: 30px;
   margin-top: 0px;
 }
@@ -115,8 +115,7 @@ body {
 .title {
   text-align: center;
   margin: 40px;
-  font-size: 40px;
-  text-transform: uppercase;
+  font-size: 30px;
 }
 
 .container-about-me {
@@ -161,4 +160,78 @@ body {
 [data-anime].animate {
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
+}
+
+.about-trybe {
+  margin: 0px 40px 40px;
+  font-size: 17px;
+}
+
+.about-trybe p {
+  color: #121214;
+  text-align: justify;
+}
+
+.about-trybe h3 {
+  font-size: 20px;
+  margin: 30px;
+}
+
+.technical-skill {
+  display: flex;
+  height: 90px;
+  width: 200px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+.icon-skills {
+  margin: 0px 20px 20px;
+}
+
+.container-footer {
+  background-color: #121214;
+  height: 150px;
+}
+
+.back-top p {
+  color: #e1e1e6;
+  text-align: right;
+  margin-right: 50px;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.back-top a {
+  text-decoration: none;
+  color: #e1e1e6;
+}
+
+.back-top a:hover {
+  text-decoration: none;
+  color: #8257e6;
+}
+
+.icon-code-footer {
+  font-size: 25px;
+  color: #8257e6;
+  margin: 20px 0px 0px 50px;
+}
+
+.logo {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo h1 {
+  font-family: 'Lobster', cursive;
+}
+
+.container-footer-burple p {
+  background-color: #8257e6;
+  color: #e1e1e6;
+  height: 20px;
+  text-align: center;
 }

@@ -20,21 +20,22 @@ function typeWrite (elemento) {
 const paragraphHero = document.querySelector('.paragraph-hero');
 typeWrite(paragraphHero);
 
-// ANIMAÇÃO 'SOBRE MIM'
+// ANIMAÇÃO SEÇÃO 'SOBRE MIM'
 const target = document.querySelectorAll('[data-anime]');
 const animationClass = 'animate';
 
 const animeScroll = () => {
-  const windowTop = window.pageXOffset + ((window.innerHeight * 3) / 4);
+  const windowTop = window.pageYOffset + ((window.innerHeight * 0.75));
   target.forEach(function(element) {
     if ((windowTop) > element.offsetTop) {
       element.classList.add(animationClass);
-      console.log(target)
     } else {
       element.classList.remove(animationClass);
     }
   })
 }
+
+animeScroll();
 
 window.addEventListener('scroll', () => {
   animeScroll();
