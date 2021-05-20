@@ -37,13 +37,12 @@ const removeLocalStorage = async (item) => {
 // Subtrai item preço total;
 const subPrice = async (price) => {
   const getSpanPrice = document.querySelector('.price');
-  getSpanPrice.innerText = (parseFloat(getSpanPrice.innerText) - price);
+  getSpanPrice.innerText = (parseFloat(getSpanPrice.innerText) - price).toFixed(2);
 };
 
 // Remove item do carrinho ao ser clicado;
 async function cartItemClickListener(event) {
   const { id } = event.target.dataset;
-  console.log(event);
   event.target.remove();
   removeLocalStorage(id);
   const item = await requestAPIItem(id);
@@ -108,7 +107,7 @@ function createProductItemElement({ id: sku, title: name, thumbnail: image }) {
   section.appendChild(createCustomElement('span', 'item__sku', sku));
   section.appendChild(createCustomElement('span', 'item__title', name));
   section.appendChild(createProductImageElement(image));
-  const button = createCustomElement('button', 'item__add', 'Adicionar ao carrinho!');
+  const button = createCustomElement('button', 'item__add', 'Adicionar ao Carrinho!');
   button.addEventListener('click', addCard);
   section.appendChild(button);
 

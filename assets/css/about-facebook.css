@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #89a4d5;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-about-facebook {
+  padding: 20px 0 10px 0;
+  text-decoration: underline;
+  text-decoration-color: #3c5c97;
+  font-size: 35px;
+}
+
+.image-project-facebook {
+  width: 50%;
+  border-radius: 10px
+}
+
+.container-developed, .container-skills {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.title-developed {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.paragraph-developed {
+  width: 50%;
+}
